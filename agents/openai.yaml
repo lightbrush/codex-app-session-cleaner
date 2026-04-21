@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Session Cleaner"
+  short_description: "Safely clean a local Codex session by ID"
+  default_prompt: "Use $codex-session-cleaner to safely preview or physically clean a local Codex session by session ID."
+
+policy:
+  allow_implicit_invocation: false
