@@ -36,27 +36,7 @@ Key entries:
 
 ### Method A: Install from GitHub with `skill-installer`
 
-Because this repository is designed as a standalone skill repo, install it from the repo root with `--path "."` and an explicit destination name.
-
-Windows:
-
-```powershell
-python "$CODEX_HOME\skills\.system\skill-installer\scripts\install-skill-from-github.py" `
-  --repo "<owner>/<repo>" `
-  --path "." `
-  --name "codex-session-cleaner"
-```
-
-macOS:
-
-```bash
-python3 "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo "<owner>/<repo>" \
-  --path "." \
-  --name "codex-session-cleaner"
-```
-
-If `CODEX_HOME` is not set in your environment, replace it with your local Codex home path.
+Copy/Paste the Github repository address into Codex and install. 
 
 ### Method B: Manual install
 

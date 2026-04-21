@@ -43,27 +43,7 @@
 
 ### 方法 A：通过 `skill-installer` 从 GitHub 安装
 
-因为这个仓库是独立 skill 仓库，所以安装时固定从仓库根目录取 skill，使用 `--path "."`，并显式指定安装名。
-
-Windows：
-
-```powershell
-python "$CODEX_HOME\skills\.system\skill-installer\scripts\install-skill-from-github.py" `
-  --repo "<owner>/<repo>" `
-  --path "." `
-  --name "codex-session-cleaner"
-```
-
-macOS：
-
-```bash
-python3 "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo "<owner>/<repo>" \
-  --path "." \
-  --name "codex-session-cleaner"
-```
-
-如果环境里没有设置 `CODEX_HOME`，请把它替换为你的本机 Codex 根目录。
+`/`命令调用Codex Skill-installer功能，粘贴github仓库地址安装。
 
 ### 方法 B：手动安装
 

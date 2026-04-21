@@ -160,7 +160,7 @@ Next Step: `If everything looks correct, run the actual cleanup`
 
 ```text
 清理报告
-状态: `已完成`
+状态: `已完成，请重启Codex以确认`
 会话 ID: `<session-id>`
 会话名称: `<thread-name>`
 原始对话位置: `<original-session-path>`
@@ -183,7 +183,7 @@ Trash 目录: `<path>`
 
 ```text
 Cleanup Report
-Status: `Completed`
+Status: `Completed, Please restart Codex`
 Session ID: `<session-id>`
 Thread Name: `<thread-name>`
 Original Conversation Location: `<original-session-path>`
